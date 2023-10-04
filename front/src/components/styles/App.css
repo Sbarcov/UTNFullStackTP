@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mystery+Quest&display=swap');
+
+body {
+  background: linear-gradient(rgb(0, 0, 0), rgb(33, 25, 41)) fixed;
+}
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.Header{
+  padding: 16px 0;
+  padding-bottom: 45px;
+}
+.BarraNav{
+  background: rgb(30, 24, 36);
+  background: linear-gradient(0deg, rgba(30, 24, 36, 1) 0%, rgba(42, 5, 88, 1) 49%, rgba(1, 1, 1, 1) 100%);
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.8em;
+  box-shadow: 0 0 .2rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #132bfe,
+      0 0 0.8rem #b806ff,
+      0 0 2.8rem #0051ff,
+      inset 0 0 1.3rem #8400ff;
+      margin-bottom: 5%;
+}
+h1 {
+  font-family: 'Mystery Quest', cursive;
+  font-size: 250%;
+  text-decoration: none;
+  text-shadow:
+      0 0 7px #ff0000,
+      0 0 10px #ff00dd,
+      0 0 21px #ff0055;
+}
+
+.NavFont{
+  font-family: 'Mystery Quest', cursive;
+  font-size: 180%;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow:
+      0 0 7px #c300ff,
+      0 0 10px #4c00ff,
+      0 0 21px #0e0aff;
+}
+.FooterStyle{
+  margin-top: 5%;
+  background-color: #2b2b2b;
+  height: 50px;
+}
+
+.Box{
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  max-width: 767px;
+  border: solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #bc13fe,
+      0 0 0.8rem #bc13fe,
+      0 0 2.8rem #bc13fe,
+      inset 0 0 1.3rem #bc13fe;
+}
+.Box2{
+  margin-top: 70px;
+  align-items: center;
+  max-width: auto;
+  border: solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 .2rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #bc13fe,
+      0 0 0.8rem #bc13fe,
+      0 0 2.8rem #bc13fe,
+      inset 0 0 1.3rem #bc13fe;
+}
+
+.Box3{
+  align-items: center;
+  max-width: auto;
+  border: solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 .2rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #bc13fe,
+      0 0 0.8rem #bc13fe,
+      0 0 2.8rem #bc13fe,
+      inset 0 0 1.3rem #bc13fe;
+}
